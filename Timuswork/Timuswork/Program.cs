@@ -9,11 +9,13 @@ namespace Timuswork
     class Program
     {
         static void Main(string[] args)
-        {
+        {          
             Console.WriteLine("Enter a: ");
-            int a = int.Parse(Console.ReadLine());
+            int a = Convert.ToInt32(Console.ReadLine());
+            //int.Parse(Console.ReadLine());
             Console.WriteLine("Enter b: ");
-            int b = int.Parse(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            //int.Parse(Console.ReadLine());
             Console.WriteLine("a+b={0}",a+b);
             Console.ReadKey();
         }

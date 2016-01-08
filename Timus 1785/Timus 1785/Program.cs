@@ -54,6 +54,7 @@ namespace Timus_1785
             {
                 Console.WriteLine("Number monster exit period");
             }
+            Console.ReadKey();
         }
     }
 }
