@@ -1,0 +1,6 @@
+F:\Timus\Timus\Timuswork\Timuswork\bin\Debug\Timuswork.exe.config
+F:\Timus\Timus\Timuswork\Timuswork\bin\Debug\Timuswork.exe
+F:\Timus\Timus\Timuswork\Timuswork\bin\Debug\Timuswork.pdb
+F:\Timus\Timus\Timuswork\Timuswork\obj\Debug\Timuswork.csprojResolveAssemblyReference.cache
+F:\Timus\Timus\Timuswork\Timuswork\obj\Debug\Timuswork.exe
+F:\Timus\Timus\Timuswork\Timuswork\obj\Debug\Timuswork.pdb
