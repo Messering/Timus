@@ -10,14 +10,14 @@ namespace Timus_1785
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter number monster: ");
             int numberMonster = int.Parse(Console.ReadLine());
-            if (numberMonster >= 1 && numberMonster <= 2000) {
-                if(numberMonster>=1 && numberMonster <= 4)
+            if (numberMonster >= 1 && numberMonster <= 2000)
+            {
+                if (numberMonster >= 1 && numberMonster <= 4)
                 {
                     Console.WriteLine("few");
                 }
-                if(numberMonster >= 5 && numberMonster <= 9)
+                if (numberMonster >= 5 && numberMonster <= 9)
                 {
                     Console.WriteLine("several");
                 }
@@ -45,16 +45,11 @@ namespace Timus_1785
                 {
                     Console.WriteLine("zounds");
                 }
-                if(numberMonster>=1000)
+                if (numberMonster >= 1000)
                 {
                     Console.WriteLine("legion");
                 }
             }
-            else
-            {
-                Console.WriteLine("Number monster exit period");
-            }
-            Console.ReadKey();
         }
     }
 }

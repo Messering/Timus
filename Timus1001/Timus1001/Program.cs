@@ -53,13 +53,10 @@ namespace Timus1001
     {
         static void Main(string[] args)
         {
-            while (true)
-            {
                     double[] a = Console.ReadLine().Split(new char[] { ' ','\n' }, StringSplitOptions.RemoveEmptyEntries).Select(i => double.Parse(i)).ToArray<double>();
                     for (int i = 0; i <a.Length; i++)                   
-                    Console.WriteLine("{0:}", Math.Round(Math.Sqrt(a[i]), 4));                       
-            }
-
+                    Console.WriteLine("{0:}", Math.Round(Math.Sqrt(a[i]), 4));
+            Console.ReadKey();                     
         }
     }
 }
